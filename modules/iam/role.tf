@@ -1,3 +1,5 @@
+#That means this role is meant to be attached to EC2 instances — not users — so those EC2s can access AWS APIs (like S3, CloudWatch, etc.) without hardcoding access keys.
+
 resource "aws_iam_role" "ec2_role" {
   name = "${var.rolename}"
 
