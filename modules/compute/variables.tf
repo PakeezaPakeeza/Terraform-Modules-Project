@@ -9,4 +9,4 @@ variable "sg_id" {}
 variable "vpc_name" {}
 #variable elb_listener {} 
 variable elb_listener_public {}
-variable iam_instance_profile {}
+variable iam_instance_profile {}   #is variable ka use kahin nahi hua hai ec2s general modue banany k time py
