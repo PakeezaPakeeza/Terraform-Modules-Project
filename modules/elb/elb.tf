@@ -2,7 +2,7 @@ resource "aws_lb" "test" {
   name               = var.nlbname
   internal           = false
   load_balancer_type = "network"
-  subnets            = var.subnets
+  subnets            = var.subnets #ofc public subnets
   enable_deletion_protection = false
   tags = {
     Environment = var.environment
